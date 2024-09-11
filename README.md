@@ -124,7 +124,7 @@ quay.io/coreos/kube-rbac-proxy:/a+/: quay.io/ruohe/kube-rbac-proxy
 
     --log        Set the path of log file, logs will be printed to Stderr by default
 
-    --proc       Number of goroutines, default value is 5
+    --proc       Number of goroutines, default value is 5 
 
     --retries    Times to retry failed tasks, default value is 2, the retries of failed tasks will start after all the tasks
                  are executed once, this can resolve most occasional network problems during synchronization
